@@ -255,7 +255,7 @@ public class MainWindow extends javax.swing.JFrame {
                 dob[index] = dobTxtZero;
 
                 break;
-                
+
             case 1:
                 String dniTxtOne = dniTextField.getText();
                 dni[index] = dniTxtOne;
@@ -276,7 +276,170 @@ public class MainWindow extends javax.swing.JFrame {
                 dob[index] = dobTxtOne;
 
                 break;
-                
+
+            case 2:
+                String dniTxtTwo = dniTextField.getText();
+                dni[index] = dniTxtTwo;
+
+                String namesTxtTwo = nameTextField.getText();
+                names[index] = namesTxtTwo;
+
+                String lnameTxtTwo = lnameTextField.getText();
+                lastName[index] = lnameTxtTwo;
+
+                String addressTxtTwo = addressTextField.getText();
+                address[index] = addressTxtTwo;
+
+                String phoneTextTwo = phoneTextField.getText();
+                phone[index] = phoneTextTwo;
+
+                String dobTxtTwo = dobTextField.getText();
+                dob[index] = dobTxtTwo;
+
+                break;
+
+            case 3:
+                String dniTxtThree = dniTextField.getText();
+                dni[index] = dniTxtThree;
+
+                String namesTxtThree = nameTextField.getText();
+                names[index] = namesTxtThree;
+
+                String lnameTxtThree = lnameTextField.getText();
+                lastName[index] = lnameTxtThree;
+
+                String addressTxtThree = addressTextField.getText();
+                address[index] = addressTxtThree;
+
+                String phoneTextThree = phoneTextField.getText();
+                phone[index] = phoneTextThree;
+
+                String dobTxtThree = dobTextField.getText();
+                dob[index] = dobTxtThree;
+
+                break;
+
+            case 4:
+                String dniTxtFour = dniTextField.getText();
+                dni[index] = dniTxtFour;
+
+                String namesTxtFour = nameTextField.getText();
+                names[index] = namesTxtFour;
+
+                String lnameTxtFour = lnameTextField.getText();
+                lastName[index] = lnameTxtFour;
+
+                String addressTxtFour = addressTextField.getText();
+                address[index] = addressTxtFour;
+
+                String phoneTextFour = phoneTextField.getText();
+                phone[index] = phoneTextFour;
+
+                String dobTxtFour = dobTextField.getText();
+                dob[index] = dobTxtFour;
+
+                break;
+
+            case 5:
+                String dniTxtFive = dniTextField.getText();
+                dni[index] = dniTxtFive;
+
+                String namesTxtFive = nameTextField.getText();
+                names[index] = namesTxtFive;
+
+                String lnameTxtFive = lnameTextField.getText();
+                lastName[index] = lnameTxtFive;
+
+                String addressTxtFive = addressTextField.getText();
+                address[index] = addressTxtFive;
+
+                String phoneTextFive = phoneTextField.getText();
+                phone[index] = phoneTextFive;
+
+                String dobTxtFive = dobTextField.getText();
+                dob[index] = dobTxtFive;
+
+                break;
+            case 6:
+                String dniTxtSix = dniTextField.getText();
+                dni[index] = dniTxtSix;
+
+                String namesTxtSix = nameTextField.getText();
+                names[index] = namesTxtSix;
+
+                String lnameTxtSix = lnameTextField.getText();
+                lastName[index] = lnameTxtSix;
+
+                String addressTxtSix = addressTextField.getText();
+                address[index] = addressTxtSix;
+
+                String phoneTextSix = phoneTextField.getText();
+                phone[index] = phoneTextSix;
+
+                String dobTxtSix = dobTextField.getText();
+                dob[index] = dobTxtSix;
+
+                break;
+            case 7:
+                String dniTxtSeven = dniTextField.getText();
+                dni[index] = dniTxtSeven;
+
+                String namesTxtSeven = nameTextField.getText();
+                names[index] = namesTxtSeven;
+
+                String lnameTxtSeven = lnameTextField.getText();
+                lastName[index] = lnameTxtSeven;
+
+                String addressTxtSeven = addressTextField.getText();
+                address[index] = addressTxtSeven;
+
+                String phoneTextSeven = phoneTextField.getText();
+                phone[index] = phoneTextSeven;
+
+                String dobTxtSeven = dobTextField.getText();
+                dob[index] = dobTxtSeven;
+
+                break;
+            case 8:
+                String dniTxtEight = dniTextField.getText();
+                dni[index] = dniTxtEight;
+
+                String namesTxtEight = nameTextField.getText();
+                names[index] = namesTxtEight;
+
+                String lnameTxtEight = lnameTextField.getText();
+                lastName[index] = lnameTxtEight;
+
+                String addressTxtEight = addressTextField.getText();
+                address[index] = addressTxtEight;
+
+                String phoneTextEight = phoneTextField.getText();
+                phone[index] = phoneTextEight;
+
+                String dobTxtEight = dobTextField.getText();
+                dob[index] = dobTxtEight;
+
+                break;
+            case 9:
+                String dniTxtNine = dniTextField.getText();
+                dni[index] = dniTxtNine;
+
+                String namesTxtNine = nameTextField.getText();
+                names[index] = namesTxtNine;
+
+                String lnameTxtNine = lnameTextField.getText();
+                lastName[index] = lnameTxtNine;
+
+                String addressTxtNine = addressTextField.getText();
+                address[index] = addressTxtNine;
+
+                String phoneTextNine = phoneTextField.getText();
+                phone[index] = phoneTextNine;
+
+                String dobTxtNine = dobTextField.getText();
+                dob[index] = dobTxtNine;
+
+                break;
             default:
                 System.out.println("Not an option");
         }
@@ -303,15 +466,70 @@ public class MainWindow extends javax.swing.JFrame {
             addressTextField.setText(address[index]);
             phoneTextField.setText(phone[index]);
             dobTextField.setText(dob[index]);
-        } else if(index == 1){
+        } else if (index == 1) {
             dniTextField.setText(dni[index]);
             nameTextField.setText(names[index]);
             lnameTextField.setText(lastName[index]);
             addressTextField.setText(address[index]);
             phoneTextField.setText(phone[index]);
             dobTextField.setText(dob[index]);
-        }
-        else {
+        } else if (index == 2) {
+            dniTextField.setText(dni[index]);
+            nameTextField.setText(names[index]);
+            lnameTextField.setText(lastName[index]);
+            addressTextField.setText(address[index]);
+            phoneTextField.setText(phone[index]);
+            dobTextField.setText(dob[index]);
+        } else if (index == 3) {
+            dniTextField.setText(dni[index]);
+            nameTextField.setText(names[index]);
+            lnameTextField.setText(lastName[index]);
+            addressTextField.setText(address[index]);
+            phoneTextField.setText(phone[index]);
+            dobTextField.setText(dob[index]);
+        } else if (index == 4) {
+            dniTextField.setText(dni[index]);
+            nameTextField.setText(names[index]);
+            lnameTextField.setText(lastName[index]);
+            addressTextField.setText(address[index]);
+            phoneTextField.setText(phone[index]);
+            dobTextField.setText(dob[index]);
+        } else if (index == 5) {
+            dniTextField.setText(dni[index]);
+            nameTextField.setText(names[index]);
+            lnameTextField.setText(lastName[index]);
+            addressTextField.setText(address[index]);
+            phoneTextField.setText(phone[index]);
+            dobTextField.setText(dob[index]);
+        } else if (index == 6) {
+            dniTextField.setText(dni[index]);
+            nameTextField.setText(names[index]);
+            lnameTextField.setText(lastName[index]);
+            addressTextField.setText(address[index]);
+            phoneTextField.setText(phone[index]);
+            dobTextField.setText(dob[index]);
+        } else if (index == 7) {
+            dniTextField.setText(dni[index]);
+            nameTextField.setText(names[index]);
+            lnameTextField.setText(lastName[index]);
+            addressTextField.setText(address[index]);
+            phoneTextField.setText(phone[index]);
+            dobTextField.setText(dob[index]);
+        } else if (index == 8) {
+            dniTextField.setText(dni[index]);
+            nameTextField.setText(names[index]);
+            lnameTextField.setText(lastName[index]);
+            addressTextField.setText(address[index]);
+            phoneTextField.setText(phone[index]);
+            dobTextField.setText(dob[index]);
+        } else if (index == 9) {
+            dniTextField.setText(dni[index]);
+            nameTextField.setText(names[index]);
+            lnameTextField.setText(lastName[index]);
+            addressTextField.setText(address[index]);
+            phoneTextField.setText(phone[index]);
+            dobTextField.setText(dob[index]);
+        } else {
             dniTextField.setText("");
             nameTextField.setText("");
             lnameTextField.setText("");
@@ -338,16 +556,70 @@ public class MainWindow extends javax.swing.JFrame {
             addressTextField.setText(address[index]);
             phoneTextField.setText(phone[index]);
             dobTextField.setText(dob[index]);
-            
-        } else if(index == 1){
+        } else if (index == 1) {
             dniTextField.setText(dni[index]);
             nameTextField.setText(names[index]);
             lnameTextField.setText(lastName[index]);
             addressTextField.setText(address[index]);
             phoneTextField.setText(phone[index]);
             dobTextField.setText(dob[index]);
-        }
-        else {
+        } else if (index == 2) {
+            dniTextField.setText(dni[index]);
+            nameTextField.setText(names[index]);
+            lnameTextField.setText(lastName[index]);
+            addressTextField.setText(address[index]);
+            phoneTextField.setText(phone[index]);
+            dobTextField.setText(dob[index]);
+        } else if (index == 3) {
+            dniTextField.setText(dni[index]);
+            nameTextField.setText(names[index]);
+            lnameTextField.setText(lastName[index]);
+            addressTextField.setText(address[index]);
+            phoneTextField.setText(phone[index]);
+            dobTextField.setText(dob[index]);
+        } else if (index == 4) {
+            dniTextField.setText(dni[index]);
+            nameTextField.setText(names[index]);
+            lnameTextField.setText(lastName[index]);
+            addressTextField.setText(address[index]);
+            phoneTextField.setText(phone[index]);
+            dobTextField.setText(dob[index]);
+        } else if (index == 5) {
+            dniTextField.setText(dni[index]);
+            nameTextField.setText(names[index]);
+            lnameTextField.setText(lastName[index]);
+            addressTextField.setText(address[index]);
+            phoneTextField.setText(phone[index]);
+            dobTextField.setText(dob[index]);
+        } else if (index == 6) {
+            dniTextField.setText(dni[index]);
+            nameTextField.setText(names[index]);
+            lnameTextField.setText(lastName[index]);
+            addressTextField.setText(address[index]);
+            phoneTextField.setText(phone[index]);
+            dobTextField.setText(dob[index]);
+        } else if (index == 7) {
+            dniTextField.setText(dni[index]);
+            nameTextField.setText(names[index]);
+            lnameTextField.setText(lastName[index]);
+            addressTextField.setText(address[index]);
+            phoneTextField.setText(phone[index]);
+            dobTextField.setText(dob[index]);
+        } else if (index == 8) {
+            dniTextField.setText(dni[index]);
+            nameTextField.setText(names[index]);
+            lnameTextField.setText(lastName[index]);
+            addressTextField.setText(address[index]);
+            phoneTextField.setText(phone[index]);
+            dobTextField.setText(dob[index]);
+        } else if (index == 9) {
+            dniTextField.setText(dni[index]);
+            nameTextField.setText(names[index]);
+            lnameTextField.setText(lastName[index]);
+            addressTextField.setText(address[index]);
+            phoneTextField.setText(phone[index]);
+            dobTextField.setText(dob[index]);
+        } else {
             dniTextField.setText("");
             nameTextField.setText("");
             lnameTextField.setText("");
