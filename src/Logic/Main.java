@@ -21,7 +21,7 @@ public class Main {
         MainWindow window = new MainWindow();
         
         window.setVisible(true);
-        window.setLocation(null);
+        window.setLocationRelativeTo(null);
     }
     
 }
