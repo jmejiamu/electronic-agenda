@@ -52,8 +52,10 @@ public class MainWindow extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Dialog", 3, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(51, 102, 255));
         jLabel1.setText("Electronic Agenda");
 
+        jLabel2.setForeground(new java.awt.Color(51, 102, 255));
         jLabel2.setText("DNI                : ");
 
         dniTextField.addActionListener(new java.awt.event.ActionListener() {
@@ -62,14 +64,19 @@ public class MainWindow extends javax.swing.JFrame {
             }
         });
 
+        jLabel3.setForeground(new java.awt.Color(51, 102, 255));
         jLabel3.setText("Name           : ");
 
+        jLabel4.setForeground(new java.awt.Color(51, 102, 255));
         jLabel4.setText("Last Name : ");
 
+        jLabel5.setForeground(new java.awt.Color(51, 102, 255));
         jLabel5.setText("Address   : ");
 
+        jLabel6.setForeground(new java.awt.Color(51, 102, 255));
         jLabel6.setText("Phone No : ");
 
+        jLabel7.setForeground(new java.awt.Color(51, 102, 255));
         jLabel7.setText("DOB           : ");
 
         btnSave.setText("Save");
@@ -232,7 +239,6 @@ public class MainWindow extends javax.swing.JFrame {
     private void btnSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSaveActionPerformed
         // TODO add your handling code here:
 
-        System.out.println("index saved" + index);
 
         switch (index) {
             case 0:
