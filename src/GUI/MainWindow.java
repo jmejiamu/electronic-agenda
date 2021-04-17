@@ -223,13 +223,13 @@ public class MainWindow extends javax.swing.JFrame {
     int index = 0;
     private void btnSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSaveActionPerformed
         // TODO add your handling code here:
-        String dni [] =  new String[10];
-        String names [] = new String[10];
-        String lastName [] = new String[10];
+        String dni[] = new String[10];
+        String names[] = new String[10];
+        String lastName[] = new String[10];
         String address[] = new String[10];
         String phone[] = new String[10];
         String dob[] = new String[10];
-        
+
     }//GEN-LAST:event_btnSaveActionPerformed
 
     private void dniTextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dniTextFieldActionPerformed
@@ -238,19 +238,26 @@ public class MainWindow extends javax.swing.JFrame {
 
     private void btnNextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNextActionPerformed
         // TODO add your handling code here:
-        index ++;
-        String indexToString = Integer.toString(index);
-        indexToShow.setText(indexToString);
+        if (index < 9) {
+            index++;
+            String indexToString = Integer.toString(index);
+            indexToShow.setText(indexToString);
+        }
+
     }//GEN-LAST:event_btnNextActionPerformed
 
     private void btnPreviousActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPreviousActionPerformed
         // TODO add your handling code here:
-        index --;
-        String indexToString = Integer.toString(index);
-        indexToShow.setText(indexToString);
+
+        if (index > 0) {
+            index--;
+            String indexToString = Integer.toString(index);
+            indexToShow.setText(indexToString);
+            
+        }
+
     }//GEN-LAST:event_btnPreviousActionPerformed
 
-   
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField addressTextField;
