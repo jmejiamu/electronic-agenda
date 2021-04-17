@@ -221,14 +221,66 @@ public class MainWindow extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
     int index = 0;
+
+    String dni[] = new String[10];
+    String names[] = new String[10];
+    String lastName[] = new String[10];
+    String address[] = new String[10];
+    String phone[] = new String[10];
+    String dob[] = new String[10];
+
     private void btnSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSaveActionPerformed
         // TODO add your handling code here:
-        String dni[] = new String[10];
-        String names[] = new String[10];
-        String lastName[] = new String[10];
-        String address[] = new String[10];
-        String phone[] = new String[10];
-        String dob[] = new String[10];
+
+        System.out.println("index saved" + index);
+
+        switch (index) {
+            case 0:
+                String dniTxtZero = dniTextField.getText();
+                dni[index] = dniTxtZero;
+
+                String namesTxtZero = nameTextField.getText();
+                names[index] = namesTxtZero;
+
+                String lnameTxtZero = lnameTextField.getText();
+                lastName[index] = lnameTxtZero;
+
+                String addressTxtZero = addressTextField.getText();
+                address[index] = addressTxtZero;
+
+                String phoneTextZero = phoneTextField.getText();
+                phone[index] = phoneTextZero;
+
+                String dobTxtZero = dobTextField.getText();
+                dob[index] = dobTxtZero;
+
+                break;
+                
+            case 1:
+                String dniTxtOne = dniTextField.getText();
+                dni[index] = dniTxtOne;
+
+                String namesTxtOne = nameTextField.getText();
+                names[index] = namesTxtOne;
+
+                String lnameTxtOne = lnameTextField.getText();
+                lastName[index] = lnameTxtOne;
+
+                String addressTxtOne = addressTextField.getText();
+                address[index] = addressTxtOne;
+
+                String phoneTextOne = phoneTextField.getText();
+                phone[index] = phoneTextOne;
+
+                String dobTxtOne = dobTextField.getText();
+                dob[index] = dobTxtOne;
+
+                break;
+                
+            default:
+                System.out.println("Not an option");
+        }
+
 
     }//GEN-LAST:event_btnSaveActionPerformed
 
@@ -244,6 +296,30 @@ public class MainWindow extends javax.swing.JFrame {
             indexToShow.setText(indexToString);
         }
 
+        if (index == 0) {
+            dniTextField.setText(dni[index]);
+            nameTextField.setText(names[index]);
+            lnameTextField.setText(lastName[index]);
+            addressTextField.setText(address[index]);
+            phoneTextField.setText(phone[index]);
+            dobTextField.setText(dob[index]);
+        } else if(index == 1){
+            dniTextField.setText(dni[index]);
+            nameTextField.setText(names[index]);
+            lnameTextField.setText(lastName[index]);
+            addressTextField.setText(address[index]);
+            phoneTextField.setText(phone[index]);
+            dobTextField.setText(dob[index]);
+        }
+        else {
+            dniTextField.setText("");
+            nameTextField.setText("");
+            lnameTextField.setText("");
+            addressTextField.setText("");
+            phoneTextField.setText("");
+            dobTextField.setText("");
+        }
+
     }//GEN-LAST:event_btnNextActionPerformed
 
     private void btnPreviousActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPreviousActionPerformed
@@ -253,7 +329,31 @@ public class MainWindow extends javax.swing.JFrame {
             index--;
             String indexToString = Integer.toString(index);
             indexToShow.setText(indexToString);
+
+        }
+        if (index == 0) {
+            dniTextField.setText(dni[index]);
+            nameTextField.setText(names[index]);
+            lnameTextField.setText(lastName[index]);
+            addressTextField.setText(address[index]);
+            phoneTextField.setText(phone[index]);
+            dobTextField.setText(dob[index]);
             
+        } else if(index == 1){
+            dniTextField.setText(dni[index]);
+            nameTextField.setText(names[index]);
+            lnameTextField.setText(lastName[index]);
+            addressTextField.setText(address[index]);
+            phoneTextField.setText(phone[index]);
+            dobTextField.setText(dob[index]);
+        }
+        else {
+            dniTextField.setText("");
+            nameTextField.setText("");
+            lnameTextField.setText("");
+            addressTextField.setText("");
+            phoneTextField.setText("");
+            dobTextField.setText("");
         }
 
     }//GEN-LAST:event_btnPreviousActionPerformed
