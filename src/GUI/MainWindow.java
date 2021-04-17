@@ -87,11 +87,17 @@ public class MainWindow extends javax.swing.JFrame {
         });
 
         btnPrevious.setText("<<");
+        btnPrevious.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnPreviousActionPerformed(evt);
+            }
+        });
 
         jLabel8.setText("Index:");
 
         indexToShow.setEditable(false);
         indexToShow.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        indexToShow.setText("0");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -236,6 +242,13 @@ public class MainWindow extends javax.swing.JFrame {
         String indexToString = Integer.toString(index);
         indexToShow.setText(indexToString);
     }//GEN-LAST:event_btnNextActionPerformed
+
+    private void btnPreviousActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPreviousActionPerformed
+        // TODO add your handling code here:
+        index --;
+        String indexToString = Integer.toString(index);
+        indexToShow.setText(indexToString);
+    }//GEN-LAST:event_btnPreviousActionPerformed
 
    
 
