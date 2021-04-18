@@ -227,6 +227,7 @@ public class MainWindow extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+    
     int index = 0;
 
     String dni[] = new String[10];
