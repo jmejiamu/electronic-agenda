@@ -17,10 +17,14 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        //Creation of the main window object
         MainWindow window = new MainWindow();
         
+        //Display window 
         window.setVisible(true);
+        
+        //Center window
         window.setLocationRelativeTo(null);
     }
     

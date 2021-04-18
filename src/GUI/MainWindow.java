@@ -227,9 +227,10 @@ public class MainWindow extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-    
+    // Main index - This index will allow to save and retrieve data from the vectors
     int index = 0;
 
+    //Vectors where data will be stored
     String dni[] = new String[10];
     String names[] = new String[10];
     String lastName[] = new String[10];
@@ -238,7 +239,7 @@ public class MainWindow extends javax.swing.JFrame {
     String dob[] = new String[10];
 
     private void btnSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSaveActionPerformed
-        // TODO add your handling code here:
+        // Saving data in correspondent vector 
 
 
         switch (index) {
@@ -459,7 +460,7 @@ public class MainWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_dniTextFieldActionPerformed
 
     private void btnNextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNextActionPerformed
-        // TODO add your handling code here:
+        // Logic for next btn
         if (index < 9) {
             index++;
             String indexToString = Integer.toString(index);
@@ -548,7 +549,7 @@ public class MainWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_btnNextActionPerformed
 
     private void btnPreviousActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPreviousActionPerformed
-        // TODO add your handling code here:
+        // Logic for prev. btn
 
         if (index > 0) {
             index--;
